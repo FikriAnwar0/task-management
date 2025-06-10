@@ -1,10 +1,10 @@
 
 # 🧩 TaskEasy – Task Management Web App with XP Practices
 
-🌐 [Preview Live App](https://task-management-dusky-sigma.vercel.app/)
-
-# -- preview gambar --
+# -- preview gambar website --
 ![image](https://github.com/user-attachments/assets/6017ec44-2d63-4cda-85f6-d52e4dab5c18)
+
+🌐 [Preview Live App](https://task-management-dusky-sigma.vercel.app/)
 
 ## 📌 Deskripsi Proyek
 
