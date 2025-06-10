@@ -1,134 +1,135 @@
+<h1 align="center">🚀 TaskEasy – XP-Based Task Management App</h1>
 
-# 🧩 TaskEasy – Task Management Web App with XP Practices
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6017ec44-2d63-4cda-85f6-d52e4dab5c18" alt="TaskEasy Preview" width="80%" />
+</p>
 
-# -- preview gambar website --
-![image](https://github.com/user-attachments/assets/6017ec44-2d63-4cda-85f6-d52e4dab5c18)
-
-🌐 [Preview Live App](https://task-management-dusky-sigma.vercel.app/)
-
-## 📌 Deskripsi Proyek
-
-**TaskEasy** adalah aplikasi web manajemen tugas yang dikembangkan dalam waktu 1 minggu oleh tim mahasiswa dengan menerapkan praktik **Extreme Programming (XP)** secara menyeluruh. Proyek ini meniru situasi nyata di mana sebuah startup kecil membutuhkan prototipe sistem pengelolaan tugas yang sederhana, namun fleksibel, untuk membantu tim mengelola pekerjaan mereka secara efisien.
-
-Aplikasi ini memungkinkan pengguna untuk:
-- Membuat tugas baru dengan judul, deskripsi, prioritas (rendah, sedang, tinggi), dan status (to-do, in-progress, done).
-- Melihat daftar semua tugas, yang disortir berdasarkan prioritas.
-- Mengedit atau menghapus tugas yang ada.
-- Menyimpan data secara lokal atau dengan backend ringan.
-- Menyaring tugas secara cepat berdasarkan status atau prioritas.
+<p align="center">
+  🔗 <a href="https://task-management-dusky-sigma.vercel.app/">🌐 Live Preview: task-management-dusky-sigma.vercel.app</a>
+</p>
 
 ---
 
-## 👥 Tim Pengembang
+## 📝 Deskripsi Proyek
 
-| Nama | Peran | Fokus |
-|------|-------|-------|
-| Fikri Anwar | Developer A (Driver) | Formulir penambahan tugas (TaskForm.tsx) |
-| Nickolas | Developer B (Navigator) | Tampilan kartu tugas (TaskCard.tsx) |
-| Mikael | Customer | Feedback pengguna & prioritas fitur (StatsCards, QuickActions) |
-| Ipaldi | XP Coach | CI, dokumentasi, dan penerapan praktik XP |
+**TaskEasy** adalah aplikasi manajemen tugas berbasis web yang dikembangkan dalam waktu 1 minggu dengan mengikuti prinsip **Extreme Programming (XP)**. Aplikasi ini membantu tim mengelola tugas secara efisien dengan fitur-fitur dasar seperti CRUD tugas, filter, dan ringkasan status, sambil menerapkan praktik pengembangan perangkat lunak modern berbasis agile.
+
+### 🎯 Fitur Utama:
+- ✅ Tambah, edit, hapus tugas
+- ✅ Atur prioritas: rendah, sedang, tinggi
+- ✅ Lacak status: to-do, in-progress, done
+- ✅ Ringkasan statistik tugas
+- ✅ Filter cepat berdasarkan status/prioritas
+- ✅ Persistensi data (local storage / JSON Server)
 
 ---
 
-## 🛠️ Teknologi & Tools
+## 👥 Tim & Peran
 
-- **Frontend**: React.js, Tailwind CSS
-- **Backend (optional)**: JSON Server
+| 👤 Nama        | 🎯 Peran                  | 🛠 Fokus Utama                                       |
+|---------------|---------------------------|------------------------------------------------------|
+| **Fikri Anwar** | Developer A (Driver)     | Formulir tugas (`TaskForm.tsx`)                     |
+| **Nickolas**    | Developer B (Navigator)  | Kartu tugas (`TaskCard.tsx`)                        |
+| **Mikael**      | Customer                 | Umpan balik, fitur prioritas (`StatsCards.tsx`, `QuickActions.tsx`) |
+| **Ipaldi**      | XP Coach                 | Praktik XP, CI, dokumentasi, header (`Header.tsx`) |
+
+---
+
+## 🧰 Stack Teknologi
+
+- **Frontend**: React.js + Tailwind CSS
+- **Backend Opsional**: JSON Server
 - **Testing**: Jest
 - **CI/CD**: GitHub Actions
-- **Version Control**: Git
-- **Deployment**: Vercel
+- **Version Control**: Git & GitHub
+- **Deployment**: [Vercel](https://vercel.com/)
 
 ---
 
-## 📈 XP Practices yang Diterapkan
+## 💡 Praktik XP yang Diterapkan
 
 | Praktik XP | Implementasi |
 |------------|--------------|
-| ✅ Pair Programming | Setiap fitur dikerjakan oleh dua developer dengan rotasi peran (driver/navigator). |
-| ✅ Test-Driven Development (TDD) | Unit test ditulis sebelum implementasi fitur menggunakan Jest. |
-| ✅ Continuous Integration (CI) | Setiap commit memicu GitHub Actions untuk menjalankan test otomatis. |
-| ✅ Small Releases | Fitur dirilis secara bertahap setiap hari (satu fitur per hari). |
-| ✅ Refactoring | Kode dioptimasi dan dibersihkan secara berkala tanpa mengubah fungsionalitas. |
-| ✅ Customer Collaboration | Mikael sebagai customer memberikan feedback harian untuk menentukan prioritas. |
-| ✅ Planning Game | User stories dibuat bersama dan diprioritaskan berdasarkan nilai bisnis dan effort. |
+| ✅ Pair Programming | Dilakukan dengan rotasi driver/navigator. |
+| ✅ TDD (Test-Driven Development) | Unit test dibuat sebelum implementasi fitur. |
+| ✅ Continuous Integration | GitHub Actions dijalankan pada setiap commit untuk testing otomatis. |
+| ✅ Small Releases | Fitur dirilis dan dideploy setiap hari. |
+| ✅ Refactoring | Perbaikan struktur kode secara rutin tanpa ubah fungsionalitas. |
+| ✅ Customer Collaboration | Mikael berperan sebagai product owner dengan review harian. |
+| ✅ Planning Game | User story diprioritaskan dan diberi estimasi poin di awal proyek. |
 
 ---
 
-## 🧾 User Stories & Estimasi
+## 📜 Daftar User Stories
 
-| No | User Story | Story Point |
-|----|------------|-------------|
-| 1 | Sebagai user, saya bisa membuat tugas dengan judul dan prioritas agar saya bisa mengatur pekerjaan saya. | 3 |
-| 2 | Sebagai user, saya bisa melihat daftar tugas berdasarkan prioritas untuk membantu menentukan urgensi. | 2 |
-| 3 | Sebagai user, saya bisa memperbarui status tugas agar saya tahu progresnya. | 2 |
-| 4 | Sebagai user, saya bisa menghapus tugas agar daftar saya tetap bersih. | 1 |
-| 5 | Sebagai user, saya bisa menyaring tugas berdasarkan status dan prioritas. | 2 |
-| 6 | Sebagai user, saya bisa melihat ringkasan jumlah tugas per status. | 1 |
-| 7 | Sebagai user, saya ingin tampilan aplikasi yang simpel dan menarik. | 1 |
+| No | User Story | Estimasi Poin |
+|----|------------|---------------|
+| 1 | Sebagai user, saya bisa menambahkan tugas agar bisa mengatur pekerjaan saya. | 3 |
+| 2 | Sebagai user, saya bisa melihat daftar tugas berdasarkan prioritas. | 2 |
+| 3 | Sebagai user, saya bisa memperbarui status tugas agar bisa melacak progres. | 2 |
+| 4 | Sebagai user, saya bisa menghapus tugas untuk membersihkan daftar. | 1 |
+| 5 | Sebagai user, saya ingin memfilter tugas berdasarkan status dan prioritas. | 2 |
+| 6 | Sebagai user, saya ingin melihat statistik jumlah tugas. | 1 |
+| 7 | Sebagai user, saya ingin antarmuka yang simpel dan enak dilihat. | 1 |
 
 **Total Story Point**: 12
 
 ---
 
-## 💬 Feedback dari Customer (Mikael)
+## 💬 Feedback Harian dari Customer
 
-Berikut adalah umpan balik dari customer selama proses pengembangan:
-
-- 💡 **Hari 1**: "Tampilan input tugas sudah bagus, tapi perlu validasi kalau ada input kosong."
-- 💡 **Hari 2**: "Bisa ditambah visual untuk membedakan status tugas, misal warna hijau untuk 'done'."
-- 💡 **Hari 3**: "Bagus! Tolong tambahkan statistik ringkasan agar saya tahu seberapa banyak tugas selesai."
-- 💡 **Hari 4**: "Saya ingin cara cepat untuk filter tugas. Bisa pakai tombol Quick Filter?"
-- 💡 **Hari 5**: "Semua fitur penting sudah masuk. Fokus ke penyempurnaan UI dan UX."
+| Hari | Feedback |
+|------|----------|
+| 🗓️ Day 1 | Validasi input kosong dibutuhkan di formulir tugas. |
+| 🗓️ Day 2 | Warna status lebih menonjol akan bantu navigasi visual. |
+| 🗓️ Day 3 | Ringkasan statistik tugas akan sangat berguna. |
+| 🗓️ Day 4 | Tambahkan Quick Filter untuk mempercepat akses. |
+| 🗓️ Day 5 | Fokus ke UI/UX dan polish final demo. Semua fitur penting sudah tersedia. |
 
 ---
 
-## 📅 Catatan Harian Standup
+## 📅 Log Standup Harian
 
 ### 📖 Day 1
-- Membagi peran dan user story.
-- Membuat wireframe awal dan task planning.
-- Fokus: Struktur awal project, TaskForm.
+- 🚧 Setup struktur awal project.
+- ✅ TaskForm dasar selesai.
+- 💬 Diskusi user story & estimasi poin.
 
 ### 📖 Day 2
-- Menyelesaikan TaskForm dan validasi input.
-- Memulai komponen TaskCard dan logika status.
+- ✅ Validasi form & pengembangan TaskCard.
+- 🔍 Review kode & testing awal.
 
 ### 📖 Day 3
-- Menambahkan fitur filter tugas.
-- Mulai fitur statistik jumlah tugas per status.
-- Review dari customer: bagus, tapi UX perlu ditingkatkan.
+- ✅ StatsCards & logika status selesai.
+- 🔁 Refactor modularisasi fungsi.
 
 ### 📖 Day 4
-- Tambahan QuickActions untuk filter cepat.
-- Refactor kode ke komponen yang lebih modular.
-- CI setup selesai di GitHub Actions.
+- ✅ QuickActions dan penyempurnaan UI.
+- 🧪 CI pipeline selesai dengan GitHub Actions.
 
 ### 📖 Day 5
-- Finalisasi desain dan styling.
-- Menyelesaikan semua user story.
-- Test akhir dan perbaikan minor berdasarkan feedback user.
+- ✅ Finalisasi UI, testing akhir, polish untuk demo.
 
 ---
 
-## ✅ Hasil Akhir & Deliverables
+## ✅ Deliverables
 
-- ✅ Aplikasi web berfungsi penuh – [TaskEasy Preview](https://task-management-dusky-sigma.vercel.app/)
-- ✅ Repositori Git dengan commit history dan setup CI – lihat file `.github/workflows`
-- ✅ Dokumentasi lengkap: user stories, feedback, log harian
-- ✅ Unit test dengan Jest untuk tiap komponen utama
-- ✅ Siap untuk presentasi demo 5 menit di kelas
-
----
-
-## 🧠 Lessons Learned
-
-### 🔑 Sukses Utama:
-Implementasi **pair programming** sangat membantu dalam menyeimbangkan kualitas kode dan produktivitas, terutama saat menghadapi debugging.
-
-### 🚧 Tantangan:
-Menjaga **kecepatan pengembangan dengan TDD** ternyata cukup menantang, namun sangat berguna untuk menghindari bug di tahap akhir.
+- ✔️ Web app siap digunakan – [Live Preview](https://task-management-dusky-sigma.vercel.app/)
+- ✔️ Repositori Git lengkap dengan commit history & CI
+- ✔️ File dokumentasi: user stories, feedback harian, log standup
+- ✔️ Unit test untuk komponen utama
+- ✔️ Demo 5 menit siap dipresentasikan
 
 ---
 
-> Dibuat dengan semangat kolaborasi, komunikasi terbuka, dan prinsip XP untuk membangun solusi nyata yang bisa digunakan oleh tim sungguhan.
+## 📈 Hasil & Refleksi
+
+### 🏆 Sukses Terbesar:
+- Penerapan XP berjalan sangat baik: customer selalu dilibatkan, rilis kecil dilakukan tiap hari.
+
+### ❗ Tantangan Utama:
+- Menjaga ritme TDD dan deployment harian butuh disiplin dan koordinasi yang tinggi.
+
+---
+
+> Dibangun dengan kolaborasi, komunikasi efektif, dan semangat agile development. 💻✨
