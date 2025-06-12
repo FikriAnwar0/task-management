@@ -122,6 +122,12 @@
 
 ---
 
+## 🎥 Video Demo
+
+Klik tautan di bawah ini untuk melihat demo langsung penggunaan aplikasi:
+
+[📺 Tonton Video Demo](https://mikroskilacid-my.sharepoint.com/:v:/r/personal/nicholas_jogi_students_mikroskil_ac_id/Documents/Recordings/Panggilan%20dengan%20Fikri%20dan%201%20lainnya-20250612_104247-Rekaman%20Rapat.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nkCQdV)
+
 ## 📈 Hasil & Refleksi
 
 ### 🏆 Sukses Terbesar:
